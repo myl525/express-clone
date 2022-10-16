@@ -1,0 +1,22 @@
+{
+  "name": "express-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myl525/express-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myl525/express-clone/issues"
+  },
+  "homepage": "https://github.com/myl525/express-clone#readme",
+  "devDependencies": {
+    "jest": "^29.2.0"
+  }
+}
