@@ -2,7 +2,6 @@
 const net = require('net');
 const fs = require('fs');
 const path = require('path');
-const { STATUS_CODES } = require('http');
 
 //HTTP_STATUS_CODE Object
 const HTTP_STATUS_CODES = {
@@ -145,7 +144,7 @@ class Response {
     }
 
     statusLineToString() {
-        return `${this.version} ${this.statusCode} ${STATUS_CODES[this.statusCode]}\r\n`;
+        return `${this.version} ${this.statusCode} ${HTTP_STATUS_CODES[this.statusCode]}\r\n`;
     }
 
     headersToString() {
